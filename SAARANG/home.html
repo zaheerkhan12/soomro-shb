@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app.js"></script>
+
+    <style>
+       
+.pera{
+    width: 100%;
+    height: 100vh;
+    background-image: url(download.jpg);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ 
+table{
+    width: 50%;
+    height: 50vh;
+    margin-left: -40px;
+    border: 30px solid pink;
+    box-shadow: 2px;
+    
+}
+input , button {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body> 
+    <div class="pera">
+
+    <table>
+        <tr>
+            <th colspan="3" , bgcolor="red"><input type="text" id="a"  > </th>
+            <th bgcolor="red"> <input type="button" value="c" id="" onclick="mpt()"> </th>
+        </tr>
+        <tr>
+            <th bgcolor="red"><input type="button" value="1" name="" id="" onclick="cal(1)"> </th>
+            <th bgcolor="red"><input type="button" value="2" name="" id="" onclick="cal(2)"></th>
+            <th bgcolor="red"><input type="button" value="3" name="" id="" onclick="cal(3)"></th>
+            <th bgcolor="red"><input type="button" value="/" name="" id="" onclick="cal('/')"></th>
+        </tr>
+        <tr>
+            <th bgcolor="red"><input type="button" value="4" name="" id="" onclick="cal(4)"> </th>
+            <th bgcolor="red"><input type="button" value="5" name="" id="" onclick="cal(5)"></th>
+            <th bgcolor="red"><input type="button" value="6" name="" id="" onclick="cal(6)"></th>
+            <th bgcolor="red"><input type="button" value="*" name="" id="" onclick="cal('*')"></th>
+        </tr>
+        <tr>
+            <th bgcolor="red"><input type="button" value="7" name="" id="" onclick="cal(7)"> </th>
+            <th bgcolor="red"><input type="button" value="8" name="" id="" onclick="cal(8)"></th>
+            <th bgcolor="red"><input type="button" value="9" name="" id="" onclick="cal(9)"></th>
+            <th bgcolor="red"><input type="button" value="-" name="" id="" onclick="cal('-')"></th>
+        </tr>
+        <tr>
+            <th bgcolor="red"><input type="button" value="." name="" id="" onclick="cal('.')"> </th>
+            <th bgcolor="red"><input type="button" value="0" name="" id="" onclick="cal(0)"></th>
+            <th bgcolor="red"><input type="button" value="=" name="" id="" onclick="solution()"></th>
+            <th bgcolor="red"><input type="button" value="+" name="" id="" onclick="cal('+')"></th>
+        </tr>
+    </table>
+
+   
+    </div>
+ 
+
+</body>
+</html>
